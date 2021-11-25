@@ -2,7 +2,7 @@ var path,boy,cash,diamonds,jwellery,sword;
 var pathImg,boyImg,cashImg,diamondsImg,jwelleryImg,swordImg;
 var treasureCollection = 0;
 var cashG,diamondsG,jwelleryG,swordGroup;
-var restart,restartImg;
+
 //Game States
 
 var PLAY=1;
@@ -56,7 +56,7 @@ function draw() {
   edges= createEdgeSprites();
   boy.collide(edges);
   
-  restart.visible = false
+  
 
    if(path.y > height ){
      path.y = height/2;
